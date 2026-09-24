@@ -1,5 +1,3 @@
-# vae-glitch-classification
-Unsupervised glitch classification in LIGO gravitational wave data using Variational Autoencoders and Spectral Clustering.
 # Variational Autoencoder for Gravitational-Wave Glitch Representation Learning
 
 ## Overview
