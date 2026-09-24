@@ -29,7 +29,6 @@ The ten most common glitch classes are considered:
 * No Glitch
 * Scattered Light
 * Tomte
-
 The spectrograms are cropped to remove axes and labels before being resized to **128 × 128 pixels**.
 The spectrograms can be accessed through https://zenodo.org/records/5649212 .
 ---
