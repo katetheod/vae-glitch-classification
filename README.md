@@ -10,7 +10,9 @@ The model is trained solely to reconstruct spectrogram images without using clas
 
 ## Dataset
 
-The project uses spectrogram images from the **Gravity Spy** dataset.
+The project uses spectrogram images from the **Gravity Spy** dataset. 
+The spectrograms are cropped to remove axes and labels before being resized to **128 × 128 pixels**.
+The dataset is available at: https://zenodo.org/records/5649212.
 
 For each glitch, two spectrograms are used:
 
@@ -29,8 +31,7 @@ The ten most common glitch classes are considered:
 * No Glitch
 * Scattered Light
 * Tomte
-The spectrograms are cropped to remove axes and labels before being resized to **128 × 128 pixels**.
-The spectrograms can be accessed through https://zenodo.org/records/5649212 .
+* 
 ---
 
 ## Model Architecture
