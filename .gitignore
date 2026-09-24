@@ -1,0 +1,52 @@
+# Model weights / checkpoints (too big for GitHub)
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.keras
+*.safetensors
+
+# Data (use Zenodo link instead)
+data/
+*.npy
+*.npz
+*.hdf5
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Conda
+.conda/
+
+# Environment / secrets
+.env
+*.env
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Logs & outputs
+*.log
+outputs/
+runs/
+wandb/
+lightning_logs/
